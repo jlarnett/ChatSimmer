@@ -365,3 +365,5 @@ FodyWeavers.xsd
 ### ENV Files ###
 *.env
 *.env.*
+/ChatSimmer/.env
+/ChatSimmer/.env
