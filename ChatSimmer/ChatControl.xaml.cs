@@ -62,6 +62,7 @@ namespace ChatSimmer
             InitializeComponent();
 
             //Get API Key from .env file
+            DotNetEnv.Env.TraversePath().Load();
             openAIApiKey = TestConfig.GetVarFor<string>("OPENAI_API_KEY");
 
             //Setup automatic chat timer
